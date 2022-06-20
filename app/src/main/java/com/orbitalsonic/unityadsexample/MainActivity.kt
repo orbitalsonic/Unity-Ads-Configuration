@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val adsContainer:LinearLayout = findViewById(R.id.banner_ads)
         unityAdsUtils = UnityAdsUtils(this)
         unityAdsUtils.initializeAds()
+
         unityAdsUtils.loadBanner(adsContainer)
 
         val btnAdsShow:Button = findViewById(R.id.btnAdsShow)
